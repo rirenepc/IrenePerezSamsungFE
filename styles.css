@@ -1,0 +1,121 @@
+ul,
+ol {
+  list-style: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+pre,
+code {
+  font-size: 1em;
+}
+
+ul,
+ol,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+pre,
+form,
+body,
+html,
+p,
+blockquote,
+fieldset {
+  margin: 0;
+  padding: 0;
+  line-height: 1;
+  list-style: none;
+}
+
+a img,
+:link img,
+:visited img,
+fieldset {
+  border: none;
+}
+
+input[type="submit"],
+input[type="reset"],
+input[type="button"] {
+  *filter: chroma(color=#000000);
+}
+
+body {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 16px;
+  color: #000000;
+  background-color: #f1f1f1;
+}
+
+h1 {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 30px;
+  margin-bottom: 30px;
+  font-weight: bold;
+  line-height: 160%;
+  color: rgba(81, 62, 252, 0.911);
+  text-shadow: rgb(224, 228, 4) 1px 0 5px;
+  text-align: center;
+}
+div.formulario fieldset {
+  background-color: aqua;
+  padding: 10px;
+  margin: 20px;
+  box-shadow: rgb(102, 102, 101) 1px 0 5px;
+}
+div.formulario legend {
+  background-color: red;
+  color: #f1f1f1;
+}
+div.formulario input {
+  background-color: rgb(251, 255, 0);
+  box-shadow: rgb(102, 102, 101) 1px 0 5px;
+  border: 0px;
+  margin: 2px;
+}
+div.formulario input[type="date"] {
+  background-color: azure;
+}
+div.formulario input[type="range"] {
+  width: 180px;
+  scroll-behavior: calc(4);
+  box-shadow: 0px 0 0px;
+  border: 0px;
+}
+.botonDatos {
+  background-color: rgb(199, 194, 194);
+}
+.botonValoracion {
+  background-color: rgb(243, 194, 211);
+  height: 40px;
+  width: 100px;
+  margin: 3px;
+  border-radius: 5px;
+  box-shadow: rgb(102, 102, 101) 1px 0 5px;
+  border: 0px;
+}
+
+.alert {
+  opacity: 1;
+  transition: opacity 0.6s; /* 600ms to fade out */
+}
+#msg.exito {
+  color: rgb(255, 255, 255);
+  background-color: rgb(123, 196, 15);
+  width: 300px;
+}
+
+#msg.error {
+  color: rgb(255, 255, 255);
+  background-color: rgb(196, 27, 15);
+  width: 300px;
+}
